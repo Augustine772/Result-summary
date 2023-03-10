@@ -159,12 +159,25 @@
         display: block;
         width: 100%;
         position: absolute;
-        top: 0;
+        top: 1;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
     }
 
     .left-col{
-        height: 80vh;
-        padding-top: 20%;
+        width: 100%;
+        height: 100vh;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+
+    .left-col p{
+        margin-bottom: 5%;
+    }
+
+    .left-col h3{
+        margin-top: 10%;
     }
 
     .right-col{
