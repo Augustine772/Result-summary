@@ -183,4 +183,8 @@
     .right-col{
         width: 100%;
     }
+    
+    .btn button{
+        margin-bottom: 10%;
+    }
 }
