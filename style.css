@@ -163,8 +163,8 @@
     }
 
     .left-col{
-        width: 100%;
-        height: 70vh;
+        height: 80vh;
+        padding-top: 20%;
     }
 
     .right-col{
